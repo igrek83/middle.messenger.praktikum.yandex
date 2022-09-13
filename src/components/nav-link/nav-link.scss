@@ -1,0 +1,16 @@
+@import '../../assets/styles/variables';
+@import "../../assets/styles/mixins";
+
+.nav-link {
+  @include text($font, 400, 24px, 30px, $color-white);
+  transition: color 0.3s ease;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-red;
+  }
+
+  &_color_red {
+    color: $color-red;
+  }
+}
