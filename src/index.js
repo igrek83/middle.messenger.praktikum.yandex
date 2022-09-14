@@ -12,14 +12,17 @@ switch (path) {
     case '/':
         root.innerHTML = home;
         document.querySelector('title').textContent = "Главная";
+        document.querySelector('#home-link').classList.add('nav-link_theme_active');
         break;
     case '/chates':
         root.innerHTML = chates;
         document.querySelector('title').textContent = "Список чатов";
+        document.querySelector('#chates-link').classList.add('nav-link_theme_active');
         break;
     case '/profile':
         root.innerHTML = profile;
         document.querySelector('title').textContent = "Настройки пользователя";
+        document.querySelector('#profile-link').classList.add('nav-link_theme_active');
         break;
     default:
         root.innerHTML = notFound;

@@ -28,6 +28,7 @@ const data = {
         inputOptions('profile-login', 'text', 'Логин'),
         inputOptions('profile-first_name', 'text', 'Имя'),
         inputOptions('profile-second_name', 'text', 'Фамилия'),
+        inputOptions('display_name', 'text', 'Имя в чате'),
         inputOptions('profile-tel', 'tel', 'Телефон'),
     ],
 }
@@ -38,11 +39,11 @@ const profile = `<div class="profile">
                         {{> button editButton }}
                         {{> avatar-input }}
                     </div>                  
-                    <div class="profile__box">
+                    <ul class="profile__box">
                         {{#each inputArray }}
                             {{>input this}}
                         {{/each}}
-                    </div>
+                    </ul>
                     {{>button submitButton }}
                 </form>
                 {{>button passwordButton }}
