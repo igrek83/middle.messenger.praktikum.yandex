@@ -1,0 +1,18 @@
+@import '../../assets/styles/variables';
+@import "../../assets/styles/mixins";
+
+.message-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+
+  &__time {
+    @include text($font, 500, 16px, 20px, $color-white);
+    margin-bottom: 4px;
+  }
+
+  &__text {
+    @include text($font, 400, 14px, 20px, $color-white);
+    width: 400px;
+  }
+}
