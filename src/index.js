@@ -2,6 +2,7 @@ import { home } from "./pages/home/home.tmp";
 import {chates} from "./pages/chates/chates.tmp";
 import { profile } from "./pages/profile/profile.tpm";
 import {notFound} from "./pages/not-found/not-found.tmp";
+import {serverErrors} from "./pages/server-errors/server-errors.tmp";
 import PopupComponent from "./utils/PopupComponent";
 import './assets/styles/index.scss'
 
@@ -23,6 +24,10 @@ switch (path) {
         root.innerHTML = profile;
         document.querySelector('title').textContent = "Настройки пользователя";
         document.querySelector('#profile-link').classList.add('nav-link_theme_active');
+        break;
+    case '/server-errors':
+        root.innerHTML = serverErrors;
+        document.querySelector('#server-errors').classList.add('nav-link_theme_active');
         break;
     default:
         root.innerHTML = notFound;

@@ -20,6 +20,11 @@ const data = {
             id: 'profile-link',
             content: 'Настройки пользователя',
         },
+        {
+            to: '/server-errors',
+            id: 'server-errors',
+            content: 'Ошибка сервера',
+        },
     ],
     regButton: {
         buttonClass: 'button',

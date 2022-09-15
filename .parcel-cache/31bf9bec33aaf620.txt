@@ -1,7 +1,7 @@
 7281
 91E:\middle.messenger.praktikum.yandex\node_modules\@parcel\core\lib\requests\EntryRequest.js121436361000000000 0
 83E:\middle.messenger.praktikum.yandex\node_modules\@swc\helpers\lib\_create_super.js121436361000000000 0
-49E:\middle.messenger.praktikum.yandex\src\index.js133077255500237072 0
+49E:\middle.messenger.praktikum.yandex\src\index.js133077331743334126 0
 97E:\middle.messenger.praktikum.yandex\node_modules\@msgpackr-extract\msgpackr-extract-darwin-arm64133074948383294305 1
 82E:\middle.messenger.praktikum.yandex\node_modules\cosmiconfig\dist\cacheWrapper.js121436361000000000 0
 90E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\optimize\InnerGraphPlugin.js121436361000000000 0
@@ -14,7 +14,7 @@
 54E:\middle.messenger.praktikum.yandex\node_modules\yaml133074948386168564 1
 70E:\middle.messenger.praktikum.yandex\node_modules\serve-static\LICENSE121436361000000000 0
 105E:\middle.messenger.praktikum.yandex\node_modules\@babel\highlight\node_modules\supports-color\browser.js131663821590000000 0
-42E:\middle.messenger.praktikum.yandex\.idea133077319571001090 1
+42E:\middle.messenger.praktikum.yandex\.idea133077331805489940 1
 87E:\middle.messenger.praktikum.yandex\node_modules\lightningcss-win32-x64-msvc\README.md121436361000000000 0
 89E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\util\extractUrlAndGlobal.js121436361000000000 0
 44E:\middle.messenger.praktikum.yandex\.github133069552478395393 1
@@ -44,7 +44,7 @@
 92E:\middle.messenger.praktikum.yandex\node_modules\caniuse-lite\data\features\transforms2d.js121436361000000000 0
 47E:\middle.messenger.praktikum.yandex\.gitignore133069615341359346 0
 66E:\middle.messenger.praktikum.yandex\node_modules\chokidar\LICENSE121436361000000000 0
-81E:\middle.messenger.praktikum.yandex\src\pages\server-errors\server-errors.tmp.js133077323779161037 0
+81E:\middle.messenger.praktikum.yandex\src\pages\server-errors\server-errors.tmp.js133077331743364077 0
 70E:\middle.messenger.praktikum.yandex\node_modules\json5\lib\parse.d.ts121436361000000000 0
 72E:\middle.messenger.praktikum.yandex\node_modules\json5\lib\unicode.d.ts121436361000000000 0
 80E:\middle.messenger.praktikum.yandex\node_modules\content-disposition\HISTORY.md121436361000000000 0
@@ -72,9 +72,9 @@
 66E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\wasm133074948387932378 1
 95E:\middle.messenger.praktikum.yandex\node_modules\handlebars\dist\amd\handlebars\helpers\log.js121436361000000000 0
 100E:\middle.messenger.praktikum.yandex\node_modules\caniuse-lite\data\features\intersectionobserver.js121436361000000000 0
-40E:\middle.messenger.praktikum.yandex\src133077256549296853 1
+40E:\middle.messenger.praktikum.yandex\src133077331743344125 1
 90E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\dependencies\LoaderPlugin.js121436361000000000 0
-41E:\middle.messenger.praktikum.yandex\dist133077321368679805 1
+41E:\middle.messenger.praktikum.yandex\dist133077332344663024 1
 81E:\middle.messenger.praktikum.yandex\node_modules\caniuse-lite\data\regions\SK.js121436361000000000 0
 70E:\middle.messenger.praktikum.yandex\node_modules\stable\stable.min.js131691408960000000 0
 97E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\hmr\HotModuleReplacement.runtime.js121436361000000000 0
@@ -115,7 +115,7 @@
 113E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\webworker\ImportScriptsChunkLoadingRuntimeModule.js121436361000000000 0
 78E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\util\TupleSet.js121436361000000000 0
 87E:\middle.messenger.praktikum.yandex\node_modules\caniuse-lite\dist\unpacker\feature.js121436361000000000 0
-69E:\middle.messenger.praktikum.yandex\src\modules\header\header.tmp.js133075290616420351 0
+69E:\middle.messenger.praktikum.yandex\src\modules\header\header.tmp.js133077332343019067 0
 72E:\middle.messenger.praktikum.yandex\node_modules\commander\CHANGELOG.md121436361000000000 0
 84E:\middle.messenger.praktikum.yandex\src\assets\fonts\SFProDisplay-MediumItalic.woff133075290616280803 0
 70E:\middle.messenger.praktikum.yandex\node_modules\klona\json\index.mjs121436361000000000 0
@@ -124,7 +124,7 @@
 101E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\container\RemoteToExternalDependency.js121436361000000000 0
 73E:\middle.messenger.praktikum.yandex\node_modules\loader-runner\README.md121436361000000000 0
 97E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\runtime\AsyncModuleRuntimeModule.js121436361000000000 0
-46E:\middle.messenger.praktikum.yandex\README.md133069552478395393 0
+46E:\middle.messenger.praktikum.yandex\README.md133077329595589850 0
 66E:\middle.messenger.praktikum.yandex\node_modules\wordwrap\example133074948383042931 1
 73E:\middle.messenger.praktikum.yandex\src\pages\not-found\not-found.tmp.js133077321365139600 0
 107E:\middle.messenger.praktikum.yandex\node_modules\@parcel\runtime-js\src\helpers\browser\import-polyfill.js121436361000000000 0
@@ -315,7 +315,7 @@
 68E:\middle.messenger.praktikum.yandex\node_modules\yallist\yallist.js121436361000000000 0
 101E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\serialization\RegExpObjectSerializer.js121436361000000000 0
 72E:\middle.messenger.praktikum.yandex\node_modules\import-fresh\readme.md121436361000000000 0
-60E:\middle.messenger.praktikum.yandex\src\pages\server-errors133077323779162627 1
+60E:\middle.messenger.praktikum.yandex\src\pages\server-errors133077331743374041 1
 105E:\middle.messenger.praktikum.yandex\node_modules\caniuse-lite\data\features\es6-module-dynamic-import.js121436361000000000 0
 76E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\Compilation.js121436361000000000 0
 61E:\middle.messenger.praktikum.yandex\node_modules\sass-loader133077257656743023 1
@@ -341,7 +341,7 @@
 108E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\prefetch\ChunkPrefetchFunctionRuntimeModule.js121436361000000000 0
 80E:\middle.messenger.praktikum.yandex\node_modules\@parcel\utils\lib\index.js.map121436361000000000 0
 102E:\middle.messenger.praktikum.yandex\node_modules\caniuse-lite\data\features\keyboardevent-charcode.js121436361000000000 0
-55E:\middle.messenger.praktikum.yandex\src\modules\header133075290616420351 1
+55E:\middle.messenger.praktikum.yandex\src\modules\header133077332343019067 1
 78E:\middle.messenger.praktikum.yandex\node_modules\@parcel\events\src\errors.js121436361000000000 0
 85E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\util\StackedCacheMap.js121436361000000000 0
 66E:\middle.messenger.praktikum.yandex\node_modules\minimist\example133074948384092111 1
@@ -613,7 +613,7 @@
 71E:\middle.messenger.praktikum.yandex\node_modules\anymatch\package.json121436361000000000 0
 72E:\middle.messenger.praktikum.yandex\node_modules\timsort\src\timsort.js131138581980000000 0
 54E:\middle.messenger.praktikum.yandex\node_modules\.bin133077257657710440 1
-64E:\middle.messenger.praktikum.yandex\dist\index.a29fce5e.css.map133077320828258994 0
+64E:\middle.messenger.praktikum.yandex\dist\index.a29fce5e.css.map133077331809332706 0
 86E:\middle.messenger.praktikum.yandex\node_modules\@parcel\core\test\serializer.test.js121436361000000000 0
 83E:\middle.messenger.praktikum.yandex\node_modules\webpack\lib\stats\StatsPrinter.js121436361000000000 0
 93E:\middle.messenger.praktikum.yandex\node_modules\csso\lib\restructure\prepare\specificity.js121436361000000000 0
@@ -4697,7 +4697,7 @@
 100E:\middle.messenger.praktikum.yandex\node_modules\handlebars\dist\amd\handlebars\compiler\visitor.js121436361000000000 0
 111E:\middle.messenger.praktikum.yandex\node_modules\handlebars\dist\amd\handlebars\compiler\whitespace-control.js121436361000000000 0
 77E:\middle.messenger.praktikum.yandex\node_modules\handlebars\bin\.eslintrc.js121436361000000000 0
-63E:\middle.messenger.praktikum.yandex\dist\index.975ef6c8.js.map133077321368669837 0
+63E:\middle.messenger.praktikum.yandex\dist\index.975ef6c8.js.map133077332344653391 0
 69E:\middle.messenger.praktikum.yandex\node_modules\graceful-fs\LICENSE121436361000000000 0
 74E:\middle.messenger.praktikum.yandex\node_modules\graceful-fs\package.json121436361000000000 0
 72E:\middle.messenger.praktikum.yandex\node_modules\glob-to-regexp\test.js121436361000000000 0
@@ -4977,7 +4977,7 @@
 96E:\middle.messenger.praktikum.yandex\node_modules\electron-to-chromium\full-chromium-versions.js121436361000000000 0
 89E:\middle.messenger.praktikum.yandex\node_modules\caniuse-lite\data\features\css-table.js121436361000000000 0
 98E:\middle.messenger.praktikum.yandex\node_modules\electron-to-chromium\full-chromium-versions.json121436361000000000 0
-59E:\middle.messenger.praktikum.yandex\dist\index.975ef6c8.js133077321368649929 0
+59E:\middle.messenger.praktikum.yandex\dist\index.975ef6c8.js133077332344639206 0
 89E:\middle.messenger.praktikum.yandex\node_modules\electron-to-chromium\full-versions.json121436361000000000 0
 79E:\middle.messenger.praktikum.yandex\node_modules\electron-to-chromium\index.js121436361000000000 0
 85E:\middle.messenger.praktikum.yandex\node_modules\caniuse-lite\data\regions\alt-oc.js121436361000000000 0
@@ -7224,7 +7224,7 @@
 63E:\middle.messenger.praktikum.yandex\dist\index.411e0df4.js.map133075293937731922 0
 64E:\middle.messenger.praktikum.yandex\dist\index.81b75857.css.map133076499003010797 0
 64E:\middle.messenger.praktikum.yandex\dist\index.9b47ed07.css.map133075293937731922 0
-60E:\middle.messenger.praktikum.yandex\dist\index.a29fce5e.css133077320828249008 0
+60E:\middle.messenger.praktikum.yandex\dist\index.a29fce5e.css133077331809292817 0
 60E:\middle.messenger.praktikum.yandex\dist\index.d01dfbe0.css133075222091401301 0
 64E:\middle.messenger.praktikum.yandex\dist\index.d01dfbe0.css.map133075222091451168 0
 61E:\middle.messenger.praktikum.yandex\dist\pencil.89fa1726.svg133077320828378656 0
@@ -7278,5 +7278,5 @@
 85E:\middle.messenger.praktikum.yandex\dist\SFProDisplay-UltralightItalic.e370c612.woff133077313418572459 0
 85E:\middle.messenger.praktikum.yandex\dist\SFProDisplay-UltralightItalic.fc38cd1c.woff133074958060054619 0
 59E:\middle.messenger.praktikum.yandex\.idea\watcherTasks.xml133069576819251183 0
-56E:\middle.messenger.praktikum.yandex\.idea\workspace.xml133077319571001090 0
+56E:\middle.messenger.praktikum.yandex\.idea\workspace.xml133077331805479975 0
 54E:\middle.messenger.praktikum.yandex\.github\workflows133069552478395393 1

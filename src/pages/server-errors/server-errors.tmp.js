@@ -3,7 +3,7 @@ import {authForm} from "../../modules/forms/auth-form/auth-form.tmp";
 import {headerTemplate} from "../../modules/header/header.tmp";
 import './server-errors.scss';
 
-export const notFound = `<div class="page" id="root">
+export const serverErrors = `<div class="page" id="root">
     ${regForm}
     ${authForm}
     ${headerTemplate}
