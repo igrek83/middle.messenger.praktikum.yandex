@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "messenger",
   "scripts": {
-    "dev": "parcel ./static/index.html -p 3000 --open",
+    "start": "parcel ./static/index.html -p 3000 --open",
     "build": "parcel build ./static/index.html",
-    "start": "parcel build ./static/index.html && node ./server.js"
+    "buildandstart": "parcel build ./static/index.html && node ./server.js"
   },
   "keywords": [],
   "author": "Igor Golanov",
