@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel ./static/index.html -p 3000 --open",
     "build": "parcel build ./static/index.html",
-    "buildandstart": "parcel build ./static/index.html && node ./server.js"
+    "buildandstart": "npm run build && node ./server.ts"
   },
   "keywords": [],
   "author": "Igor Golanov",
