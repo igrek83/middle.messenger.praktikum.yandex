@@ -1,0 +1,6 @@
+@import '../../assets/styles/variables';
+@import "../../assets/styles/mixins";
+
+.input-label {
+  @include text($font, 400, 20px, 28px, $color-white);
+}

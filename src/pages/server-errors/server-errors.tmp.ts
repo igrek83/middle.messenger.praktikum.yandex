@@ -1,6 +1,6 @@
 import {regForm} from "../../modules/forms/reg-form/reg-form.tmp";
 import {authForm} from "../../modules/forms/auth-form/auth-form.tmp";
-import {headerTemplate} from "../../modules/header/header.tmp";
+import {headerTemplate} from "../../components/header/header.tmp";
 import './server-errors.scss';
 
 export const serverErrors = `<div class="page" id="root">

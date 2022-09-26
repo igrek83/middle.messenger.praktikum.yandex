@@ -1,6 +1,6 @@
 import {regForm} from "../../modules/forms/reg-form/reg-form.tmp";
 import {authForm} from "../../modules/forms/auth-form/auth-form.tmp";
-import {headerTemplate} from "../../modules/header/header.tmp";
+import {headerTemplate} from "../../components/header/header.tmp";
 import './not-found.scss';
 
 export const notFound = `<div class="page" id="root">
