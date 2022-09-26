@@ -3,19 +3,30 @@
   "version": "1.0.0",
   "description": "messenger",
   "scripts": {
-    "dev": "parcel ./static/index.html -p 3000 --open",
+    "start": "parcel ./static/index.html -p 3000 --open --no-source-maps --no-cache",
     "build": "parcel build ./static/index.html",
-    "start": "parcel build ./static/index.html && node ./server.js"
+    "buildandstart": "npm run build && node ./server.js"
+  },
+  "alias": {
+    "components": "./src/components",
+    "pages": "./src/pages",
+    "modules": "./src/modules",
+    "utils": "./src/utils"
   },
   "keywords": [],
   "author": "Igor Golanov",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "2.7.0",
+    "@types/node": "18.7.18",
     "express": "4.18.1",
-    "handlebars": "4.7.7",
     "parcel": "2.7.0",
     "sass": "1.34.1",
-    "sass-loader": "10.2.0"
+    "sass-loader": "10.2.0",
+    "typescript": "4.8.3"
+  },
+  "dependencies": {
+    "handlebars": "4.7.7",
+    "nanoid": "4.0.0"
   }
 }

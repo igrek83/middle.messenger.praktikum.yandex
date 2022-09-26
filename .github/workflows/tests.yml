@@ -65,7 +65,7 @@ jobs:
     - name: Check routing
       run: node tests-second-floor/sprint_1/check_routing.js
       # sprint 2 checks
-    - name: Check typescript in package.json
+    - name: Check typescript in header-stub.json
       run: node tests-second-floor/sprint_2/check_typescript.js
     - name: Check tsconfig required rules
       run: node tests-second-floor/sprint_2/check_tsconfig.js

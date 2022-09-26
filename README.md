@@ -3,9 +3,9 @@
 ### Установка
 
  - npm install — установка зависимостей;
- - npm run dev - запуск в режиме разработки;
+ - npm run start - запуск в режиме разработки;
  - npm run build - сборка проекта;
- - npm run start - сборка проекта, запуск сборки на localhost:3000
+ - npm run buildandstart - сборка проекта, запуск сборки на localhost:3000
 
 ---
 
