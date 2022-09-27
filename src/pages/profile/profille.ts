@@ -3,11 +3,12 @@ import './profile.scss';
 
 export class ProfilePage extends Block {
     static componentName = "Profile";
+    // language=hbs
     render() {
         return `
         {{#Layout name="ProfilePage" }}
             <div class="profile">
-                <form name="put-form" class="profile__form">
+                <form name="put-form" class="profile__form" novalidate>
                     <div class="profile__avatar-block">
                         {{{Button
                            buttonClass="profile__edit-button"

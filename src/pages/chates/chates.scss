@@ -8,6 +8,53 @@
   padding: 0 40px;
   overflow: hidden;
 
+  &__list-users {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    height: 82.5vh;
+    background-color: #212727;
+    box-shadow: inset -1px -1px 1px rgba(11, 199, 233, 0.3),
+    inset 3px 3px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-right: 32px;
+    padding: 16px;
+  }
+
+  &__list-users-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+
+    &::-webkit-resizer {
+      background-repeat: no-repeat;
+      width: 4px;
+      height: 0;
+    }
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-button {
+      background-repeat: no-repeat;
+      width: 5px;
+      height: 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background: #405b5b;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #303737;
+      border-radius: 8px;
+    }
+  }
+
   &__right-block {
     display: flex;
     flex-direction: column;
@@ -38,6 +85,54 @@
 
   &__user-name {
     @include text($font, 500, 20px, 24px, $color-white);
+  }
+
+  &__list-messages {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #212727;
+    box-shadow: inset -1px -1px 1px rgba(11, 199, 233, 0.3),
+    inset 3px 3px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    width: 100%;
+    height: 65vh;
+    padding: 32px 16px 32px 32px;
+    margin-bottom: 48px;
+  }
+
+  &__list-messages-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+
+    &::-webkit-resizer {
+      background-repeat: no-repeat;
+      width: 4px;
+      height: 0;
+    }
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-button {
+      background-repeat: no-repeat;
+      width: 5px;
+      height: 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background: #405b5b;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #303737;
+      border-radius: 8px;
+    }
   }
 
   &__bottom-right-block {

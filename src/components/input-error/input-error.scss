@@ -1,6 +1,11 @@
+@import '../../assets/styles/variables';
+@import "../../assets/styles/mixins";
+
 .input-error {
-  color: rgba(241, 18, 18, 0.8);
+  @include text($font, 500, 12px, 12px, $color-red);
   font-size: 12px;
-  text-align: center;
   height: 12px;
+  margin-right: auto;
+  padding-left: 6px;
+  padding-top: 4px;
 }

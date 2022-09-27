@@ -3,6 +3,7 @@ import './home.scss';
 
 export class HomePage extends Block {
     static componentName = "Home";
+    // language=hbs
     render() {
         return `
            {{#Layout name="HomePage" }}
