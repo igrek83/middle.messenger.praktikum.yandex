@@ -19,7 +19,7 @@
 .profile__box {
   display: grid;
   grid-gap: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .profile__button {
@@ -55,7 +55,7 @@
   background: #212727 url('../../assets/images/pencil.svg') center no-repeat;
   transition: color 0.15s ease;
   box-shadow: -1px -1px 1px rgb(11 199 233 / 30%), 3px 3px 8px rgb(0 0 0 / 30%);
-  margin-bottom: 48px;
+  margin-bottom: 32px;
   margin-right: 256px;
 
   &::after {

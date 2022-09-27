@@ -53,20 +53,22 @@ export class InputBlock extends Block {
                content="{{content}}"
                for="{{id}}"
             }}}
-            {{{ Input 
-                type="{{type}}"
-                name="{{name}}"
-                id="{{id}}"  
-                placeholder="{{placeholder}}"
-                onInput=onInput
-                onFocus=onFocus
-                onBlur=onBlur
-                ref="input"
-            }}}
+            <div class="input-block__box">
+               {{{ Input 
+                   type="{{type}}"
+                   name="{{name}}"
+                   id="{{id}}"  
+                   placeholder="{{placeholder}}"
+                   onInput=onInput
+                   onFocus=onFocus
+                   onBlur=onBlur
+                   ref="input"
+               }}}
             {{{InputError 
                ref="inputError" 
                error=error 
             }}}
+            </div>
           </div>
         `
     }
