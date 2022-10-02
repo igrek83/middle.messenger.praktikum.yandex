@@ -1,7 +1,0 @@
-@import '../../assets/styles/variables';
-@import "../../assets/styles/mixins";
-
-.title-form {
-  @include text($font, 400, 24px, 30px, $color-white);
-  margin-bottom: 24px;
-}
