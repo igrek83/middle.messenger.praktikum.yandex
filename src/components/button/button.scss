@@ -1,0 +1,66 @@
+@import '../../assets/styles/variables';
+@import "../../assets/styles/mixins";
+
+.button {
+  border: none;
+  cursor: pointer;
+  background: #212727;
+  border-radius: 10px;
+  @include text($font, 700, 14px, 18px, $color-white);
+  width: 192px;
+  height: 40px;
+  transition: color 0.15s ease;
+  box-shadow: -1px -1px 1px rgb(11 199 233 / 30%), 3px 3px 8px rgb(0 0 0 / 30%);
+
+  &:hover {
+    color: #1fcfcb;
+  }
+
+  &:active {
+    box-shadow: inset -1px -1px 1px rgba(11, 199, 233, 0.3),
+    inset 3px 3px 8px rgba(0, 0, 0, 0.3);
+    color: #1fcfcb;
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  cursor: pointer;
+  background: #212727;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  box-shadow: -1px -1px 1px rgb(11 199 233 / 30%), 3px 3px 8px rgb(0 0 0 / 30%);
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 2px;
+    background-color: $color-white;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    right: 8px;
+    top: 14px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 2px;
+    background-color: $color-white;
+    transform: rotate(135deg);
+    border-radius: 5px;
+    right: 8px;
+    top: 14px;
+  }
+
+  &:active {
+    box-shadow: inset -1px -1px 1px rgba(11, 199, 233, 0.3),
+    inset 3px 3px 8px rgba(0, 0, 0, 0.3);
+  }
+}
