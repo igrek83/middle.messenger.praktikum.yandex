@@ -1,0 +1,24 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "scss/dollar-variable-pattern": "/foo-.+/",
+    "declaration-empty-line-before": "never",
+    "alpha-value-notation": "number",
+    "color-function-notation": "legacy",
+    "at-rule-empty-line-before": "never",
+    "value-no-vendor-prefix": false,
+    "property-no-vendor-prefix": false,
+    "value-keyword-case": "lower",
+    "scss/selector-no-redundant-nesting-selector": true
+  },
+  "ignoreFiles": [
+    "dist/*",
+    "parsel-cache/*",
+    "node_modules/"
+  ]
+}
