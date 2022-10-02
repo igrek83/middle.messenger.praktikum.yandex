@@ -1,0 +1,21 @@
+@import "../../assets/styles/variables";
+@import "../../assets/styles/mixins";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 40px 48px;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+  }
+
+  &__block {
+    display: flex;
+    gap: 64px;
+  }
+}
